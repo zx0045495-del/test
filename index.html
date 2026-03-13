@@ -1,181 +1,255 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>探索世界 - 专业旅游服务</title>
-    <link rel="stylesheet" href="style.css">
+    <title>NexTech Solutions - Innovating the Future</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- 导航栏 -->
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <a href="#" class="logo">探索世界</a>
-            <ul class="nav-links">
-                <li><a href="#home">首页</a></li>
-                <li><a href="#destinations">目的地</a></li>
-                <li><a href="#about">关于我们</a></li>
-                <li><a href="#contact">联系我们</a></li>
-                <li><a href="#" class="btn-book">立即预订</a></li>
-            </ul>
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
+            <a href="#" class="logo">Nex<span>Tech</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" class="btn-nav">Get Started</a></li>
+            </ul>
         </div>
     </nav>
 
-    <!-- 英雄区域 -->
+    <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="hero-content">
-            <h1>发现世界之美</h1>
-            <p>专业的旅游规划，个性化的旅行体验，带您探索地球每一个角落</p>
-            <a href="#destinations" class="btn-hero">开始探索</a>
-        </div>
-        <div class="hero-overlay"></div>
-    </section>
-
-    <!-- 热门目的地 -->
-    <section class="destinations" id="destinations">
         <div class="container">
-            <h2 class="section-title">热门目的地</h2>
-            <p class="section-subtitle">从热带海滩到雪山之巅，我们为您精选全球最佳旅行地</p>
-            <div class="destination-grid">
-                <div class="destination-card">
-                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1516483638261-f4dbaf036963?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
-                    <div class="card-content">
-                        <h3>巴厘岛</h3>
-                        <p>印度尼西亚的 paradise，拥有美丽的海滩、文化和寺庙。</p>
-                        <div class="card-footer">
-                            <span class="price">¥8,999 起</span>
-                            <a href="#" class="btn-card">了解更多</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="destination-card">
-                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1534008897995-27a23e859048?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
-                    <div class="card-content">
-                        <h3>瑞士阿尔卑斯</h3>
-                        <p>欧洲屋脊，滑雪胜地，湖光山色令人陶醉。</p>
-                        <div class="card-footer">
-                            <span class="price">¥12,500 起</span>
-                            <a href="#" class="btn-card">了解更多</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="destination-card">
-                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
-                    <div class="card-content">
-                        <h3>日本京都</h3>
-                        <p>古都风情，樱花季和红叶季的绝佳目的地。</p>
-                        <div class="card-footer">
-                            <span class="price">¥7,800 起</span>
-                            <a href="#" class="btn-card">了解更多</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="destination-card">
-                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1513326738677-b964603b136d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
-                    <div class="card-content">
-                        <h3>新西兰南岛</h3>
-                        <p>中土世界取景地，自然风光和冒险活动的天堂。</p>
-                        <div class="card-footer">
-                            <span class="price">¥15,200 起</span>
-                            <a href="#" class="btn-card">了解更多</a>
-                        </div>
-                    </div>
+            <div class="hero-content">
+                <h1 class="hero-title">Innovating the <span class="highlight">Future</span> with Cutting-Edge Technology</h1>
+                <p class="hero-subtitle">We build scalable, intelligent solutions that transform businesses and drive digital evolution.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">Start Your Project</a>
+                    <a href="#services" class="btn-secondary">Explore Services</a>
                 </div>
             </div>
+            <div class="hero-image">
+                <div class="tech-orb"></div>
+                <div class="tech-grid"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
         </div>
     </section>
 
-    <!-- 关于我们 -->
+    <!-- About Section -->
     <section class="about" id="about">
         <div class="container">
-            <div class="about-content">
-                <h2 class="section-title">关于我们</h2>
-                <p>探索世界旅游公司成立于2010年，致力于为旅行者提供独特、安全且难忘的旅行体验。我们的团队由资深旅行专家和当地向导组成，深入了解每个目的地的文化、历史和最佳体验。</p>
-                <p>我们相信旅行不仅仅是观光，更是与世界的深度连接。因此，我们精心设计每一条路线，确保您能体验到最地道的文化、最美味的食物和最动人的风景。</p>
-                <div class="stats">
-                    <div class="stat">
-                        <h3>5000+</h3>
-                        <p>满意客户</p>
+            <h2 class="section-title">About <span>NexTech</span></h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-rocket"></i>
                     </div>
-                    <div class="stat">
-                        <h3>120+</h3>
-                        <p>目的地</p>
+                    <h3>Our Mission</h3>
+                    <p>To accelerate digital transformation through innovative technology solutions that create lasting value for our clients.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-eye"></i>
                     </div>
-                    <div class="stat">
-                        <h3>15年</h3>
-                        <p>行业经验</p>
+                    <h3>Our Vision</h3>
+                    <p>To be the leading global provider of intelligent technology solutions that shape the future of industries.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-handshake"></i>
                     </div>
+                    <h3>Our Values</h3>
+                    <p>Innovation, Integrity, Collaboration, and Excellence guide everything we do.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 联系表单 -->
-    <section class="contact" id="contact">
+    <!-- Services Section -->
+    <section class="services" id="services">
         <div class="container">
-            <h2 class="section-title">联系我们</h2>
-            <p class="section-subtitle">准备开始您的冒险了吗？请填写以下表格，我们会尽快与您联系</p>
-            <form class="contact-form">
-                <div class="form-group">
-                    <input type="text" placeholder="您的姓名" required>
+            <h2 class="section-title">Our <span>Services</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Scalable cloud infrastructure, migration, and management services for enterprises.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="form-group">
-                    <input type="email" placeholder="电子邮箱" required>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Custom AI models, predictive analytics, and intelligent automation solutions.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="form-group">
-                    <input type="tel" placeholder="电话号码">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cybersecurity</h3>
+                    <p>Advanced threat protection, security audits, and compliance management.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="form-group">
-                    <textarea placeholder="您的旅行计划或问题..." rows="5" required></textarea>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Development</h3>
+                    <p>Native and cross-platform mobile applications for iOS and Android.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <button type="submit" class="btn-submit">发送咨询</button>
-            </form>
+            </div>
         </div>
     </section>
 
-    <!-- 页脚 -->
-    <footer class="footer">
+    <!-- Team Section -->
+    <section class="team" id="team">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>探索世界</h3>
-                    <p>专业旅游服务，为您打造独一无二的旅行体验。</p>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-weixin"></i></a>
-                        <a href="#"><i class="fab fa-weibo"></i></a>
-                        <a href="#"><i class="fab fa-qq"></i></a>
+            <h2 class="section-title">Our <span>Leadership</span></h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" alt="Alex Johnson">
+                    </div>
+                    <h3>Alex Johnson</h3>
+                    <p class="team-role">CEO & Founder</p>
+                    <p class="team-bio">Former Google executive with 15+ years in tech leadership.</p>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" alt="Sarah Chen">
+                    </div>
+                    <h3>Sarah Chen</h3>
+                    <p class="team-role">CTO</p>
+                    <p class="team-bio">Ph.D. in Computer Science with expertise in AI and distributed systems.</p>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
                         <a href="#"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
-                <div class="footer-section">
-                    <h3>快速链接</h3>
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" alt="Marcus Rivera">
+                    </div>
+                    <h3>Marcus Rivera</h3>
+                    <p class="team-role">Head of Engineering</p>
+                    <p class="team-bio">Former Microsoft engineer with expertise in cloud architecture.</p>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Innovation Drive, Tech Valley, CA 94000</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@nextechsolutions.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">Nex<span>Tech</span></a>
+                    <p>Innovating the future, one solution at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#home">首页</a></li>
-                        <li><a href="#destinations">目的地</a></li>
-                        <li><a href="#about">关于我们</a></li>
-                        <li><a href="#contact">联系我们</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-section">
-                    <h3>联系方式</h3>
-                    <ul>
-                        <li><i class="fas fa-map-marker-alt"></i> 北京市朝阳区旅游大厦</li>
-                        <li><i class="fas fa-phone"></i> 400-123-4567</li>
-                        <li><i class="fas fa-envelope"></i> info@exploreworld.com</li>
-                    </ul>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 探索世界旅游公司. 保留所有权利.</p>
+                <p>&copy; 2024 NexTech Solutions. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

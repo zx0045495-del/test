@@ -1,48 +1,133 @@
-# 探索世界 - 旅游官网
+# NexTech Solutions - Company Website
 
-一个现代、响应式的旅游网站模板，专为旅游公司设计。
+A modern, high-tech company website for NexTech Solutions with sleek design, smooth animations, and responsive layout.
 
-## 功能特点
+## 🌐 Live Demo
 
-- **响应式设计**：适配各种屏幕尺寸，从手机到桌面
-- **现代化界面**：使用CSS Grid和Flexbox布局
-- **交互体验**：平滑滚动、表单验证、动画效果
-- **四个主要部分**：
-  1. 导航栏和英雄区域
-  2. 热门目的地展示
-  3. 关于我们介绍
-  4. 联系表单
+Your site is now live at:
+[**https://zx0045495-del.github.io/test/**](https://zx0045495-del.github.io/test/)
 
-## 文件结构
+> ⚠️ Note: GitHub Pages may take 1-2 minutes to build and deploy initially.
+
+## 🚀 Features
+
+- **Modern Design**: Dark theme with neon accents and futuristic aesthetics
+- **Responsive Layout**: Works perfectly on desktop, tablet, and mobile
+- **Smooth Animations**: CSS animations, hover effects, and transitions
+- **Interactive Elements**: JavaScript for form validation and interactive features
+- **Performance Optimized**: Fast loading and optimized assets
+
+## 📁 Project Structure
 
 ```
-├── index.html      # 主HTML文件
-├── style.css       # 样式文件
-├── script.js       # JavaScript交互
-└── README.md       # 项目说明
+tech-company-website/
+├── index.html          # Main homepage
+├── css/
+│   └── style.css      # All styles and animations
+├── js/
+│   └── script.js      # Interactive features and form handling
+├── README.md          # This file
+└── .git/              # Git repository
 ```
 
-## 使用方式
+## 🔧 Technologies Used
 
-1. 直接下载所有文件
-2. 在浏览器中打开 `index.html`
-3. 或者部署到任何静态网站托管服务（如GitHub Pages、Netlify等）
+- **HTML5**: Semantic markup and modern structure
+- **CSS3**: Flexbox, Grid, animations, and responsive design
+- **JavaScript (ES6+)**: Interactive features and form handling
+- **Font Awesome**: Icons for services and social media
+- **Google Fonts**: Inter and Orbitron fonts for typography
+- **Unsplash**: High-quality placeholder images
 
-## 自定义
+## 📱 Sections
 
-- 修改 `style.css` 中的颜色变量来调整主题
-- 在 `index.html` 中更新内容
-- 替换Unsplash图片链接为自己的图片
-- 修改 `script.js` 中的表单提交逻辑
+1. **Hero Section**: Animated background with call-to-action
+2. **About Section**: Company mission, vision, and values
+3. **Services Section**: Showcase of tech offerings with icons
+4. **Team Section**: Leadership profiles with social links
+5. **Contact Section**: Contact form and information
+6. **Footer**: Links and social media
 
-## 技术栈
+## 🚀 Deployment to GitHub Pages
 
-- HTML5
-- CSS3 (Flexbox, Grid, 媒体查询)
-- JavaScript (原生，无依赖)
-- Font Awesome 图标
-- Google Fonts 字体
+### Method 1: Using GitHub Web Interface
 
-## 许可证
+1. **Create a new repository** on GitHub named `tech-company-website`
+2. **Upload all files** from this directory to the repository
+3. **Enable GitHub Pages**:
+   - Go to Settings → Pages
+   - Under "Source", select `main` branch
+   - Click Save
+   - Your site will be published at `https://[username].github.io/tech-company-website/`
 
-MIT License - 自由使用和修改
+### Method 2: Using Git Command Line
+
+```bash
+# Initialize git (already done)
+git init
+
+# Add all files
+git add .
+
+# Commit changes
+git commit -m "Initial commit: NexTech Solutions website"
+
+# Add remote repository
+git remote add origin https://github.com/[username]/tech-company-website.git
+
+# Push to GitHub
+git branch -M main
+git push -u origin main
+```
+
+Then enable GitHub Pages as in Method 1.
+
+## 🛠️ Customization
+
+### Change Company Name
+Edit the following in `index.html`:
+- `<title>` tag in head
+- Logo text in navbar
+- Hero section title
+
+### Change Colors
+Edit the CSS variables in `css/style.css`:
+- Primary color: `#00d9ff` (neon blue)
+- Background: `#0a0e17` (dark blue)
+- Text colors in the CSS file
+
+### Update Content
+- **About Section**: Edit mission, vision, values text
+- **Services Section**: Update services and descriptions
+- **Team Section**: Replace images and bios
+- **Contact Section**: Update address, phone, email
+
+### Replace Images
+Replace Unsplash image URLs in `index.html` with your own images:
+```html
+<img src="https://images.unsplash.com/..." alt="Team Member">
+```
+
+## 📞 Contact Form Setup
+
+The contact form currently simulates submission. To make it functional:
+
+1. **Backend Integration**: Connect to a service like Formspree, Netlify Forms, or your own backend
+2. **Update JavaScript**: Modify the `contactForm` event listener in `js/script.js`
+3. **Add validation**: Additional validation can be added as needed
+
+## 🌐 Custom Domain
+
+To use a custom domain with GitHub Pages:
+
+1. Add a `CNAME` file to the root with your domain
+2. Update DNS settings at your domain registrar
+3. Configure in GitHub Pages settings
+
+## 📄 License
+
+This project is available for personal and commercial use. Images are from Unsplash (free to use).
+
+## 🤝 Support
+
+If you need help with customization or deployment, feel free to reach out!

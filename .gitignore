@@ -1,0 +1,27 @@
+# OpenClaw memory files
+memory/
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+# Logs
+*.log
+# OS files
+.DS_Store
+Thumbs.db
+# Node modules (if any)
+node_modules/
+# Build outputs
+dist/
+build/
+
+# OpenClaw configuration files
+AGENTS.md
+SOUL.md
+USER.md
+MEMORY.md
+HEARTBEAT.md
+IDENTITY.md
+TOOLS.md
+.openclaw/
